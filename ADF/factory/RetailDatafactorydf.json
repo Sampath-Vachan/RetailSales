@@ -1,0 +1,9 @@
+{
+	"name": "RetailDatafactorydf",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5d80419a-5c81-4038-86de-78c6f35bb73d",
+		"tenantId": "85279f02-1195-49ab-a57b-849f3b1d8a47"
+	}
+}
