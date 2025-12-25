@@ -5,12 +5,6 @@
 			"referenceName": "AzureBlobRaw",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"Filename": {
-				"type": "string",
-				"defaultValue": "Filename"
-			}
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
