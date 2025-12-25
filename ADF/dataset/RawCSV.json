@@ -5,12 +5,27 @@
 			"referenceName": "AzureBlobRaw",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"p_source_folder": {
+				"type": "string"
+			},
+			"p_source_file": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "online_retail_II.csv",
+				"fileName": {
+					"value": "@dataset().p_source_file",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@dataset().p_source_folder",
+					"type": "Expression"
+				},
 				"container": "rawdata"
 			},
 			"columnDelimiter": ",",
