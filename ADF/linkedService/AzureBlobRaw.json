@@ -1,0 +1,11 @@
+{
+	"name": "AzureBlobRaw",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://retailblobst.blob.core.windows.net/",
+			"accountKind": "StorageV2"
+		}
+	}
+}
