@@ -75,6 +75,8 @@
 			{
 				"name": "Silver",
 				"type": "DatabricksNotebook",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "RawtoBronze",
@@ -96,7 +98,7 @@
 					}
 				],
 				"typeProperties": {
-					"notebookPath": "/Workspace/Silver/Cleaning",
+					"notebookPath": "/Silver/Cleaning",
 					"baseParameters": {
 						"p_run_date": {
 							"value": "@formatDateTime(utcNow(),'yyyyMMdd')\n",
