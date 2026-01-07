@@ -90,11 +90,7 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [
-					{
-						"name": "RUN_DATE"
-					}
-				],
+				"userProperties": [],
 				"typeProperties": {
 					"notebookPath": "/Silver/Cleaning",
 					"baseParameters": {
