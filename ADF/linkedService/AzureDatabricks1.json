@@ -7,7 +7,7 @@
 			"domain": "https://adb-7405614344479168.8.azuredatabricks.net",
 			"authentication": "MSI",
 			"workspaceResourceId": "/subscriptions/e944e05e-1b2a-428c-b510-584c24b9a76d/resourceGroups/RetailSales/providers/Microsoft.Databricks/workspaces/RetailSalesDB",
-			"newClusterNodeType": "Standard_D4ds_v5",
+			"newClusterNodeType": "Standard_DS3_v2",
 			"newClusterNumOfWorker": "1",
 			"newClusterVersion": "17.3.x-photon-scala2.13",
 			"clusterOption": "Fixed",
