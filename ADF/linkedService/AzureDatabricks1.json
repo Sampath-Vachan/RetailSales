@@ -7,11 +7,7 @@
 			"domain": "https://adb-7405611155105996.16.azuredatabricks.net",
 			"authentication": "MSI",
 			"workspaceResourceId": "/subscriptions/e944e05e-1b2a-428c-b510-584c24b9a76d/resourceGroups/RetailSales/providers/Microsoft.Databricks/workspaces/RetailDatabricks",
-			"newClusterNodeType": "Standard_D3_v2",
-			"newClusterNumOfWorker": "2",
-			"newClusterVersion": "11.3.x-scala2.12",
-			"clusterOption": "Fixed",
-			"newClusterInitScripts": []
+			"existingClusterId": "0109-045340-vrjpiygw"
 		}
 	}
 }
