@@ -8,9 +8,9 @@
 			"authentication": "MSI",
 			"workspaceResourceId": "/subscriptions/e944e05e-1b2a-428c-b510-584c24b9a76d/resourceGroups/RetailSales/providers/Microsoft.Databricks/workspaces/RetailDatabricks",
 			"newClusterNodeType": "Standard_DS3_v2",
-			"newClusterNumOfWorker": "1",
-			"newClusterVersion": "11.3.x-scala2.12",
-			"clusterOption": "Fixed",
+			"newClusterNumOfWorker": "1:4",
+			"newClusterVersion": "10.4.x-scala2.12",
+			"clusterOption": "Autoscaling",
 			"newClusterInitScripts": []
 		}
 	}
