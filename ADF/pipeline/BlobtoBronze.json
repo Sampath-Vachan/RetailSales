@@ -65,7 +65,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"p_target_file": {
-								"value": "@concat(\r\n  replace(pipeline().parameters.p_source_file,'.csv',''),\r\n  '_',\r\n  formatDateTime(utcNow(),'yyyyMMddHHmmss'),\r\n  '.csv'\r\n)\r\n",
+								"value": "@concat(\n  replace(pipeline().parameters.p_source_file,'.csv',''),\n  '_',\n  formatDateTime(utcNow(),'yyyyMMdd'),\n  '.csv'\n)\n",
 								"type": "Expression"
 							}
 						}
